@@ -47,6 +47,20 @@ To perform basic network reconnaissance and identify open ports on devices withi
 
 ---
 
+## Bonus: Wireshark Packet Capture
+
+Included a live packet capture of the Nmap TCP SYN scan using Wireshark.
+
+File: `./screenshots/nmap_scan_capture.pcapng`  
+You can open this file in Wireshark to explore:
+
+- SYN packets sent from scanner (my IP: 192.168.31.186)
+- SYN-ACK responses from open ports (e.g., 80, 443)
+- RST responses from closed ports
+- TCP Flags like SYN, ACK, and RST
+
+---
+
 ## Learning Outcomes
 - Understood IP ranges and subnetting
 - Performed TCP SYN scans using Nmap
