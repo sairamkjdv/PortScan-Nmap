@@ -1,0 +1,56 @@
+Microsoft Windows [Version 10.0.26120.5733]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::9686:9b84:6e62:743f%11
+   IPv4 Address. . . . . . . . . . . : 192.168.31.186
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.31.1
+
+C:\Windows\System32>nmap -sS 192.168.31.0/24
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 15:28 +0530
+Nmap scan report for 192.168.31.1
+Host is up (0.0074s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+8192/tcp open  sophos
+8193/tcp open  sophos
+8383/tcp open  m2mservices
+8899/tcp open  ospf-lite
+MAC Address: D4:35:38:2C:9A:4C (Beijing Xiaomi Mobile Software)
+
+Nmap scan report for 192.168.31.186
+Host is up (0.00057s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 35.72 seconds
