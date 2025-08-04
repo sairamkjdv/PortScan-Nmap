@@ -35,8 +35,8 @@ To perform basic network reconnaissance and identify open ports on devices withi
 ---
 
 ## Screenshots
-![IP Configuration](./ipconfig.png)  
-![Nmap Scan](./nmap_scan.png)
+![IP Configuration](./screenshots/ipconfig.png) 
+![Nmap Scan](./screenshots/nmap_scan.png)
 
 ---
 
