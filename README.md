@@ -20,6 +20,9 @@ To perform basic network reconnaissance and identify open ports on devices withi
 
 ## Scan Results
 
+The raw output of the TCP SYN scan is also available here:  
+📄 [scan_results.txt](./scan_results.txt)
+
 ### Host 1: `192.168.31.1` (likely the router)
 - Open Ports:
   - `23` – Telnet (Insecure)
