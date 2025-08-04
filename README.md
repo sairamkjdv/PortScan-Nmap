@@ -51,7 +51,7 @@ To perform basic network reconnaissance and identify open ports on devices withi
 
 Included a live packet capture of the Nmap TCP SYN scan using Wireshark.
 
-File: `./screenshots/nmap_scan_capture.pcapng`  
+File: `./captures/nmap_scan_capture.pcapng`  
 You can open this file in Wireshark to explore:
 
 - SYN packets sent from scanner (my IP: 192.168.31.186)
