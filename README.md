@@ -21,7 +21,7 @@ To perform basic network reconnaissance and identify open ports on devices withi
 ## Scan Results
 
 The raw output of the TCP SYN scan is also available here:  
-📄 [scan_results.txt](./scan_results.txt)
+ [scan_results.txt](./scan_results.txt)
 
 ### Host 1: `192.168.31.1` (likely the router)
 - Open Ports:
@@ -54,7 +54,7 @@ The raw output of the TCP SYN scan is also available here:
 
 Included a live packet capture of the Nmap TCP SYN scan using Wireshark.
 
-File: ./captures/nmap_scan_capture.pcapng  
+File: ![Nmap Scan Capture](./captures/nmap_scan_capture.pcapng)  
 You can open this file in Wireshark to explore:
 
 - SYN packets sent from scanner (my IP: 192.168.31.186)
